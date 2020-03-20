@@ -1,6 +1,6 @@
 package org.fasttrackit;
 
-public class PlayingTime {
+public class PlayingTime extends FrisbeeToss {
 
     String name;
 }

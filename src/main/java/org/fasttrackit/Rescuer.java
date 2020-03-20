@@ -1,7 +1,7 @@
 package org.fasttrackit;
 
-public class Rescuer
+public class Rescuer extends Tobi
     {
-        String name;
+        String profession;
         int money;
     }
