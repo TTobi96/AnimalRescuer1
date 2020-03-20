@@ -1,14 +1,13 @@
 package org.fasttrackit;
 
 public class Animal
-    {
-        String name;
-        short age;
-        short healthCondition;
-        int hungryLevel;
-        int happines;
-        String favoriteFood;
-        String favoriteGame;
+{
+    String name;
+    int age;
+    int healthLevel;
+    int hungryLevel;
+    int happinesLevel;
+    String favoriteFood;
+    String favoriteGame;
 
-
-    }
+}

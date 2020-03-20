@@ -1,5 +1,7 @@
 package org.fasttrackit;
 
+import java.time.LocalDate;
+
 /**
  * Hello world!
  *
@@ -13,9 +15,9 @@ public class App
         Animal animalReference = new Animal();
         animalReference.name = "Hera";
         animalReference.age = 5;
-        animalReference.healthCondition = 4;
+        animalReference.healthLevel = 4;
         animalReference.hungryLevel = 8;
-        animalReference.happines = 6;
+        animalReference.happinesLevel = 6;
         animalReference.favoriteFood = "Steak";
         animalReference.favoriteGame = "Green ball";
 
@@ -35,9 +37,9 @@ public class App
 
                 System.out.println("The rescued animal name is " + animalReference.name);
         System.out.println("The rescued animal is " + animalReference.age + " years old" );
-        System.out.println("The rescued animal health condition is " + animalReference.healthCondition);
+        System.out.println("The rescued animal health condition is " + animalReference.healthLevel);
         System.out.println("The rescued animal hunger level is " + animalReference.hungryLevel);
-        System.out.println("The rescued animal happines level is " + animalReference.happines);
+        System.out.println("The rescued animal happines level is " + animalReference.happinesLevel);
         System.out.println("The rescued animal's favorite food is " + animalReference.favoriteFood);
         System.out.println("The rescued animal favorite game " + animalReference.favoriteGame);
         System.out.println();
