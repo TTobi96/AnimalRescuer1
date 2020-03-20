@@ -22,7 +22,7 @@ public class App
         animalReference.favoriteGame = "Green ball";
 
         Rescuer rescuerNew = new Rescuer();
-        rescuerNew.name = "Tobi";
+        rescuerNew.profession = "Engineer";
         rescuerNew.money=600;
 
         Doctor veterinarian = new Doctor();
@@ -43,7 +43,7 @@ public class App
         System.out.println("The rescued animal's favorite food is " + animalReference.favoriteFood);
         System.out.println("The rescued animal favorite game " + animalReference.favoriteGame);
         System.out.println();
-        System.out.println("The new owners name is " + rescuerNew.name);
+        System.out.println("The new owners profession is " + rescuerNew.profession);
         System.out.println("The new owners budget is " + rescuerNew.money + " lei");
         System.out.println();
         System.out.println("The doctors name is " + veterinarian.name);
